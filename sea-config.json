@@ -1,0 +1,7 @@
+{
+    "main": "myFirst.js",
+    "output": "build/myFirst.blob",
+    "disableExperimentalSEAWarning": true, 
+    "useSnapshot": false,  
+    "useCodeCache": true 
+}
