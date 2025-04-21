@@ -1,5 +1,5 @@
 {
-    "main": "myFirst.js",
+    "main": "build/index.js",
     "output": "build/myFirst.blob",
     "disableExperimentalSEAWarning": true, 
     "useSnapshot": false,  
