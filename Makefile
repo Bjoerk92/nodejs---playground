@@ -19,4 +19,4 @@ Node:
 
 InjectCode: Bundle Node | createSea
 	npx postject $(BUILD_DIR)\$(PROJECT_NAME).exe NODE_SEA_BLOB $(BUILD_DIR)\$(PROJECT_NAME).blob --sentinel-fuse NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2
-
+	signtool sign /fd SHA256 $(BUILD_DIR)\$(PROJECT_NAME).exe
